@@ -10,4 +10,4 @@
 - _git pull_:đưa những thay đổi của nhánh chính về nhánh phụ
 - _create pull request_
 - _merge code to branch Master(nhánh chính)_
-
+- _git rebase "branch(nhánh chính)"_:Lấy source code mới nhất từ nhánh chính
