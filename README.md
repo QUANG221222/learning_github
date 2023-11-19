@@ -2,6 +2,7 @@
 - _git add ._:đưa toàn bộ thay đổi vào stage changes(thêm tất cả các tệp)
 - _git commit -m "Message"_:git commit -m "Add index.html file"(thêm vào file vào hàng chờ để được đẩy lên github kèm tin nhắn)
 - _git push_:đẩy tệp lên github
+- _git push --set-upstream origin master_:dùng khi muốn đưa 1 thay đổi của nhánh lên github
 - _git clone "github"_: git clone https://github.com/QUANG221222/learning_github.git (dùng để copy dự án có thể chỉnh sửa)
 - _git checkout -b "name"_:tạo nhánh riêng để làm rồi mới gửi vào nhánh chính
 - _git checkout "branch name"_:truy cập vào 1 nhánh
