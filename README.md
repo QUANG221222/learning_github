@@ -11,3 +11,13 @@
 - _create pull request_
 - _merge code to branch Master(nhánh chính)_
 - _git rebase "branch(nhánh chính)"_:Lấy source code mới nhất từ nhánh chính
+- _git log --oneline_:log ra những commits
+- _git status_:Kiểm tra trạng thái của các file
+- _ls_: hiển thị các commit
+
+# Git reset
+- Lệnh này dùng để reset lại các commit trước đó
+
+- _git reset --soft HEAD/hash-id_: sử dụng khi lỡ commit thiếu thì có thể commit thêm
+- _git reset --mixed HEAD/hash-id_: đưa các commit ra khỏi stage changes
+- _git reset --hard_: 
