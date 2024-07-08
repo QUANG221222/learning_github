@@ -1,23 +1,27 @@
-- _git add "file"_: git add index.html(thêm tệp để đưa lên github)
-- _git add ._:đưa toàn bộ thay đổi vào stage changes(thêm tất cả các tệp)
-- _git commit -m "Message"_:git commit -m "Add index.html file"(thêm vào file vào hàng chờ để được đẩy lên github kèm tin nhắn)
-- _git push_:đẩy tệp lên github
-- _git push --set-upstream origin master_:dùng khi muốn đưa 1 thay đổi của nhánh lên github
-- _git clone "github"_: git clone https://github.com/QUANG221222/learning_github.git (dùng để copy dự án có thể chỉnh sửa)
-- _git checkout -b "name"_:tạo nhánh riêng để làm rồi mới gửi vào nhánh chính
-- _git checkout "branch name"_:truy cập vào 1 nhánh
-- _git branch -D "branch name"_:xóa nhánh nếu cần thiết
-- _git pull_:đưa những thay đổi của nhánh chính về nhánh phụ
-- _create pull request_
-- _merge code to branch Master(nhánh chính)_
-- _git rebase "branch(nhánh chính)"_:Lấy source code mới nhất từ nhánh chính
-- _git log --oneline_:log ra những commits
-- _git status_:Kiểm tra trạng thái của các file
-- _ls_: hiển thị các commit
+LỆNH GIT CƠ BẢN
+git init: khởi tạo kho lưu trữ git mới cho 1 dự án mới hoặc đã có sẵn
+git add "file": git add index.html(thêm tệp để đưa lên github)
+git add .:đưa toàn bộ thay đổi vào stage changes(thêm tất cả các tệp)
+git commit -m "Message":git commit -m "Add index.html file"(thêm vào file vào hàng chờ để được đẩy lên github kèm tin nhắn)
+git push:đẩy tệp lên github
+git push --set-upstream origin master:dùng khi muốn đưa 1 thay đổi của nhánh lên github
+git clone "github": git clone https://github.com/QUANG221222/learning_github.git (dùng để copy dự án có thể chỉnh sửa)
+git checkout -b "name":tạo nhánh riêng để làm rồi mới gửi vào nhánh chính
+git checkout "branch name":truy cập vào 1 nhánh
+git branch -D "branch name":xóa nhánh nếu cần thiết
+git pull:đưa những thay đổi của nhánh chính về nhánh phụ
+create pull request
+merge code to branch Master(nhánh chính)
+git rebase "branch(nhánh chính)":Lấy source code mới nhất từ nhánh chính
+git log --oneline:log ra những commits
+git status:Kiểm tra trạng thái của các file
+ls: hiển thị các commit
+git push origin -d 'nhánh' : xóa nhánh trên remote
+Git reset
+Lệnh này dùng để reset lại các commit trước đó
 
-# Git reset
-- Lệnh này dùng để reset lại các commit trước đó
+git reset --soft HEAD/hash-id: sử dụng khi lỡ commit thiếu thì có thể commit thêm
 
-- _git reset --soft HEAD/hash-id_: sử dụng khi lỡ commit thiếu thì có thể commit thêm
-- _git reset --mixed HEAD/hash-id_: đưa các commit ra khỏi stage changes
-- _git reset --hard_: 
+git reset --mixed HEAD/hash-id: đưa các commit ra khỏi stage changes
+
+git reset --hard:
